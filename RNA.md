@@ -4,6 +4,10 @@
 
 We have sequenced the CEPH1463 (NA12878/GM12878, Ceph/Utah pedigree) human genome reference standard on the Oxford Nanopore MinION using direct RNA sequencing kits (30 flowcells) and using the 1D ligation kit (SQK-LSK108) on R9.4 flowcells using R9.4 chemistry (FLO-MIN106). RNA from the GM12878 human cell line (Ceph/Utah pedigree) was extracted from the cultured cell line.
 
+## Citation
+
+Rachael E Workman, Alison Tang, Paul S. Tang, Miten Jain, John R Tyson, Philip C Zuzarte, Timothy Gilpatrick, Roham Razaghi, Joshua Quick, Norah Sadowski, Nadine Holmes, Jaqueline Goes de Jesus, Karen Jones, Terrance P Snutch,  Nicholas James Loman,  Benedict Paten, Matthew W Loose, Jared T Simpson, Hugh E. Olsen,Angela N Brooks, Mark Akeson, Winston Timp. "Nanopore native RNA sequencing of a human poly(A) transcriptome" doi: https://doi.org/10.1101/459529
+
 ## Contributors
 
  - Nick Loman, Josh Quick, Andrew Beggs, Jaqueline Goes de Jesus (_University of Birmingham_)
