@@ -55,7 +55,7 @@ The entire set of FastQ tar data can be downloaded by using the aws client and d
 
 
  
-Recalled rel3:
+## Recalled rel3:
  
 | flowcell_id | reads   | bases         | Date     | Centre  | SampleType | Kit         | Pore | Links                                                                                            | 
 |-------------|---------|---------------|----------|---------|------------|-------------|------|--------------------------------------------------------------------------------------------------| 
@@ -100,7 +100,7 @@ Recalled rel3:
 | FAF04090    | 94,833  | 2,337,803,872 | 09/12/16 | Bham    | Cells      | Rapid       | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/FastQTars/FAF04090-3842965088_Multi.tar) | 
 
 
-Recalled rel4:
+## Recalled rel4:
 
 | asic_id    | nreads  | mn     | count         | n50     | flowcell | centre | kit         | date       | sequence data                                                                                   | 
 |------------|---------|--------|---------------|---------|----------|--------|-------------|------------|-------------------------------------------------------------------------------------------------| 
