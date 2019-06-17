@@ -20,13 +20,11 @@ Miten Jain, Sergey Koren, Josh Quick, Arthur C Rand, Thomas A Sasani, John R Tys
 
 # rel6 (genomic DNA)
 
-Since the initial release of Guppy basecalling improvements have continued as well as optimisations in file formats (the introduction of mutifast5 files ).
-
-To this end, we have updated the data set to incorporate the latest basecalling improvements as well as file formats.
+Since the initial release of Guppy basecalling improvements have continued as well as optimisations in file formats (the introduction of mutifast5 files ). To this end, we have updated the data set to incorporate the latest basecalling improvements as well as file formats.
 
 Earlier releases should now be considered deprecated and not representative of the current state-of-the-art for nanopore sequencing.
 
-We consider rel6 to be a significant update and so are releasing these data as we did the original rel3&4 data flowcell by flowcell.
+We consider rel6 to be a significant update and so are also releasing these data as we did the original rel3&4 data flowcell by flowcell.
 
 The total dataset is now:
 
@@ -42,11 +40,17 @@ Data were basecalled using:
  
  Note: One run (FAB23716) generated using R9 has currently failed rebasecalling.
  
- 
+## Whole Dataset
+
 Fastq Data (gz) from the entire rel6 dataset is available here: [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/rel_6.fastq.gz)
 
 A sequencing summary file for the entire dataset is available here: [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/rel_6_sequencing_summary.txt.gz)
  
+## Multi Fast5 Files
+
+For forward compatability, the raw signal data has been repackaged into Multi fast5 files using the single_to_multi command from the ONT Fast5 API. 
+
+Multi Fast5 files for the entire rel6 dataset are available here: [FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rel6/rel_6.fast5.tar.gz) 
  
 Individual Flowcells of data can be downloaded below. These are complete with sequencing summary files and guppy logs. FastQ files are gzipped within the tar files.
 
@@ -59,7 +63,7 @@ The entire set of FastQ tar data can be downloaded by using the aws client and d
  
 | flowcell_id | reads   | bases         | Date     | Centre  | SampleType | Kit         | Pore | Links                                                                                            | 
 |-------------|---------|---------------|----------|---------|------------|-------------|------|--------------------------------------------------------------------------------------------------| 
-| FAB23716    |         |               | 14/07/16 | UBC     | DNA        | Rapid       | R9   | Data Not Available [FASTQ]()                                                      nnn            | 
+| FAB23716    |         |               | 14/07/16 | UBC     | DNA        | Rapid       | R9   | Data Not Available                                                                               | 
 | FAB39088    | 668,016 | 3,929,822,468 | 19/09/16 | Notts   | DNA        | Ligation    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/FastQTars/FAB39088-288418386_Multi.tar)  | 
 | FAB39075    | 477,495 | 3,014,355,946 | 20/09/16 | UBC     | DNA        | Ligation    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/FastQTars/FAB39075-4246400039_Multi.tar) | 
 | FAB39043    | 442,132 | 2,574,202,451 | 23/09/16 | Bham    | DNA        | Ligation    | R9.4 | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/FastQTars/FAB39043-3709921973_Multi.tar) | 
