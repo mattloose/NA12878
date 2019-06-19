@@ -31,6 +31,8 @@ The total dataset is now:
 * 53 flowcells
 * 132,931,102,331 bases
 * 15,666,888 reads
+
+The multi fast5 files are 4.5 Tb in size.
  
 Data were basecalled using:
  * Guppy Version: ONT Guppy basecalling software version 2.3.8+498297c
@@ -39,6 +41,16 @@ Data were basecalled using:
  
  
  Note: One run (FAB23716) generated using R9 has currently failed rebasecalling.
+ 
+## Multi Fast5 Files
+
+For forward compatability, the raw signal data has been repackaged into Multi fast5 files using the single_to_multi command from the ONT Fast5 API.
+
+This has resulted in a significant decrease in file size for this collection. The tar files are now only 4.5 Tb in total. These files have not yet been compressed with Nanopore's new compression algorithms. We will provide this soon. 
+
+To obtain the whole set of fast5 files we recommend using the aws client and obtaining all the data from s3://nanopore-human-wgs/rel6/Multi_Fast5_Tars/
+
+Individual flowcells worth of fast5 data can be downloaded below.
  
 ## Whole Dataset
 
@@ -50,16 +62,6 @@ Individual Flowcells of data can be downloaded below. These are complete with se
 
 The entire set of FastQ tar data can be downloaded by using the aws client and downloading from s3://nanopore-human-wgs/rel6/FastQTars/
 
- 
-## Multi Fast5 Files
-
-For forward compatability, the raw signal data has been repackaged into Multi fast5 files using the single_to_multi command from the ONT Fast5 API.
-
-This has resulted in a significant decrease in file size for this collection. The tar files are now only 4.5 Tb in total. These files have not yet been compressed with Nanopore's new compression algorithms. We will provide this soon. 
-
-To obtain the whole set of fast5 files we recommend using the aws client and obtaining all the data from s3://nanopore-human-wgs/rel6/Multi_Fast5_Tars/
-
-Individual flowcells worth of fast5 data can be downloaded below:
  
 ## Recalled rel3:
  
