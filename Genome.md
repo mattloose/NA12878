@@ -61,7 +61,7 @@ Individual Flowcells of data can be downloaded below. These are complete with se
 The entire set of FASTQ tar data can be downloaded by using the aws client and downloading from s3://nanopore-human-wgs/rel6/FastQTars/
 
  
-## Recalled data.
+## Rel6 Data
 
 | flowcell_id | ASIC_id    | reads   | bases         | Mean   | N50     | Date       | Centre  | SampleType | Kit      | Pore | Links (Fastq/Fast5)                                                                                                                                                                                            |
 |-------------|------------|---------|---------------|--------|---------|------------|---------|------------|----------|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
