@@ -124,8 +124,8 @@ The entire set of FASTQ tar data can be downloaded by using the aws client and d
 ## Previous versions
 
 For previous versions of data:  
-(rel5), please go to: [rel5](nanopore-human-genome/rel5.md)
-(rel3 and rel4), please go to: [rel_3_4](nanopore-human-genome/rel_3_4.md)
+(rel5), please go to: [rel5](nanopore-human-genome/rel5.md)  
+(rel3 and rel4), please go to: [rel_3_4](nanopore-human-genome/rel_3_4.md)  
 
 # Acknowledgements
 
