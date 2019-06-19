@@ -56,9 +56,9 @@ Individual flowcells worth of Fast5 data can be downloaded below.
 
 ## Whole Dataset
 
-FASTQ Data (gz) from the entire rel6 dataset is available here: [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/rel_6.fastq.gz)
+FASTQ Data (gz) from the entire rel6 dataset is available here (131 Gb): [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/rel_6.fastq.gz)
 
-A sequencing summary file for the entire dataset is available here: [Sequencing Summary](http://s3.amazonaws.com/nanopore-human-wgs/rel6/rel_6_sequencing_summary.txt.gz)
+A sequencing summary file for the entire dataset is available here (1.1 Gb): [Sequencing Summary](http://s3.amazonaws.com/nanopore-human-wgs/rel6/rel_6_sequencing_summary.txt.gz)
 
 Individual Flowcells of data can be downloaded below. These are complete with sequencing summary files and guppy logs. FASTQ files are gzipped within the tar files.
 
