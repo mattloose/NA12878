@@ -127,7 +127,7 @@ aws s3 cp s3://nanopore-human-wgs/rel6/FASTQTars/ <<TARGET>>
 | FAF15586    | 82266371   | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/FastQTars/FAF15586-82266371_Multi.tar)/[FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rel6/Multi_Fast5_Tars/FAF15586-82266371_Multi_Fast5.tar)     | 82,411  | 1,990,923,468 | 24,158 | 116,036 | 08/03/2017 | Bham    | Cells      | Ultra    | R9.4 |
 | FAF05869    | 87644245   | [FASTQ](http://s3.amazonaws.com/nanopore-human-wgs/rel6/FastQTars/FAF05869-87644245_Multi.tar)/[FAST5](http://s3.amazonaws.com/nanopore-human-wgs/rel6/Multi_Fast5_Tars/FAF05869-87644245_Multi_Fast5.tar)     | 451,359 | 3,892,152,689 | 8,623  | 14,576  | 08/03/2017 | UBC     | Cells      | Ligation | R9.4 |
 
-* This run on R9 chemistry failed basecalling. We are working to resolve this.
+\* This run on R9 chemistry failed basecalling. We are working to resolve this.  
 ** These two runs share the same flowcell ID through human error...
 
 ## Previous versions
